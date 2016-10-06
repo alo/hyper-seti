@@ -1,0 +1,55 @@
+{
+  "name": "hyper-seti",
+  "version": "0.5.2",
+  "description": "Hyper.app theme based on Seti UI color scheme",
+  "main": "index.js",
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "hyper",
+    "hyper-theme"
+  ],
+  "author": "Stephen Sauceda <contact@stephensauceda.com> (https://stephensauceda.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephensauceda/hyper-seti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephensauceda/hyper-seti/issues"
+  },
+  "homepage": "https://github.com/stephensauceda/hyper-seti#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^3.0.6",
+    "babel-core": "^6.11.4",
+    "babel-jest": "^15.0.0",
+    "babel-preset-stephensauceda": "^1.0.1",
+    "codecov": "^1.0.1",
+    "eslint": "^3.1.1",
+    "eslint-config-stephensauceda": "^9.0.0",
+    "jest": "^15.1.1"
+  },
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "report": "codecov",
+    "add": "all-contributors add",
+    "generate": "all-contributors generate"
+  },
+  "babel": {
+    "presets": [
+      "stephensauceda"
+    ],
+    "ignore": "test.js",
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}

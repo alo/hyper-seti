@@ -1,0 +1,20 @@
+{
+  "projectName": "hyperterm-seti",
+  "projectOwner": "stephensauceda",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "thomaslindstrom",
+      "name": "Thomas Lindstrøm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2833514?v=3",
+      "profile": "http://t.hom.as",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
